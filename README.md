@@ -188,15 +188,3 @@ Computer Science Engineer
 Backend & IoT System Developer
 
 ---
-
- ⭐ Purpose
-
-This project demonstrates:
-
-- Backend API development
-- Database management
-- IoT simulation logic
-- Automation scripting
-- Full-stack integration
-```
-
