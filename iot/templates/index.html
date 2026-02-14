@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Smart Parking Dashboard</title>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+<h1>Smart Parking System</h1>
+
+<h3>Empty: {{emptyCount}} &nbsp; Occupied: {{occupiedCount}}</h3>
+
+{% if currentstate == 'empty' %}
+    <img src="/static/img/empty.jpg" width="200">
+{% else %}
+    <img src="/static/img/occupied.png" width="200">
+{% endif %}
+
+</body>
+</html>
